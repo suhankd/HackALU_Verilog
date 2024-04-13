@@ -13,9 +13,9 @@ module ALU (
     output ng           
 );
 
-//Declares a set of 11 16 bit registers.
+//Declares a set of 8 16 bit registers.
 
-reg[15:0] zdx, nzdx, zdy, nzdy, mnzx, mnzy, xplusy, xandy, fxy, nefxy; 
+reg[15:0] zdx, nzdx, zdy, nzdy, xplusy, xandy, fxy, nefxy; 
 
 
 //START
